@@ -1,0 +1,37 @@
+{
+  "name": "discord_bot_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "@types/node": "^7.0.0",
+    "discord-bot": "^0.2.16",
+    "discord.js": "^11.0.0",
+    "long": "^3.2.0",
+    "node-opus": "^0.2.6",
+    "prism-media": "hydrabolt/prism-media",
+    "snekfetch": "^2.2.0",
+    "tweetnacl": "^0.14.0",
+    "ws": "^2.0.0"
+  },
+  "peerDependencies": {
+    "bufferutil": "^2.0.0",
+    "erlpack": "hammerandchisel/erlpack",
+    "node-opus": "^0.2.5",
+    "opusscript": "^0.0.3",
+    "sodium": "^2.0.1",
+    "uws": "^0.14.1"
+  },
+  "devDependencies": {
+    "discord.js-docgen": "hydrabolt/discord.js-docgen",
+    "eslint": "^3.17.0",
+    "parallel-webpack": "^1.6.0",
+    "uglify-js": "mishoo/UglifyJS2#harmony",
+    "webpack": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
