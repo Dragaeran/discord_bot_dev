@@ -9,11 +9,15 @@ let bot = new Bot({
 });
 console.log("Demarrage du bot...");
 
+channels =0
 
 bot
     .on(bot.triggers.now)
     .do(function () {
-        console.log("Coucou les cons")
+        //salut la truite
+        bot.sendMessage("240475080851718144", "coucou les truites")
+        //salut botconfig
+        bot.sendMessage("301263305698312192", "coucou botconfig")
     });
 
 bot
@@ -57,4 +61,6 @@ bot
 
 bot.connect(function () {
     console.log("ok")
+
+
 });
